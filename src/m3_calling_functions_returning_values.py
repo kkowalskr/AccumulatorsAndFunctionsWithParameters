@@ -158,14 +158,14 @@ def run_test_digits_in_cube():
 
     expected2 = 10
     answer2 = digits_in_cube(7)
-    print('Test 1 expected:', expected2)
+    print('Test 2 expected:', expected2)
     print('         actual:', answer2)
 
     #Test 3#
 
     expected3 = 9
     answer3 = digits_in_cube(8)
-    print('Test 1 expected:', expected3)
+    print('Test 3 expected:', expected3)
     print('         actual:', answer3)
 
 
@@ -219,14 +219,14 @@ def run_test_digits_in_power():
 
     expected2 = 9
     answer2 = digits_in_power(6, 3)
-    print('Test 1 expected:', expected2)
+    print('Test 2 expected:', expected2)
     print('         actual:', answer2)
 
     # Test 3#
 
     expected3 = 7
     answer3 = digits_in_power(7, 4)
-    print('Test 1 expected:', expected3)
+    print('Test 3 expected:', expected3)
     print('         actual:', answer3)
 
 
@@ -288,14 +288,14 @@ def run_test_fancy_sums_of_digits():
 
     expected2 = 19084
     answer2 = fancy_sums_of_digits(2)
-    print('Test 1 expected:', expected2)
+    print('Test 2 expected:', expected2)
     print('         actual:', answer2)
 
     # Test 3#
 
     expected3 = 124309
     answer3 = fancy_sums_of_digits(35)
-    print('Test 1 expected:', expected3)
+    print('Test 3 expected:', expected3)
     print('         actual:', answer3)
 
 def fancy_sums_of_digits(n):
@@ -330,7 +330,7 @@ def fancy_sums_of_digits(n):
     #    the    sum_of_digits    function that is DEFINED ABOVE.
     ####################################################################
     # ------------------------------------------------------------------
-    
+
     X = sum_of_digits(n ** 1000)
     Y = sum_of_digits(n ** 999)
     answer = sum_of_digits(X ** Y)
